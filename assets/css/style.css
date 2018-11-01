@@ -1,0 +1,186 @@
+body{
+    padding-top: 50px;
+}
+.start_template{
+    text-align: center;
+}
+#reg_user{
+    margin-right: 30px;
+}
+.page_title{
+    padding-top: 20px;
+    font-size: 30px;
+}
+#danger{
+    color: red;
+}
+#success{
+    color: green;
+}
+#reg_form{
+    width: 60%;
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+}
+
+#submit{
+    margin-top: 15px;
+}
+#add_good_form{
+    width: 60%;
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+}
+#image_good{
+    margin: auto;
+}
+ul li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.goods{
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+div.item_good{
+    border: 1px solid silver; 
+    border-radius: 5px; 
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    height: 100%;       
+}
+
+div.item_good:hover{
+    border: 1px solid blue; 
+    border-radius: 5px; 
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    height: 100%;       
+}
+
+div img{
+    width: 90%;
+}
+
+#userfile{
+    margin: auto;  
+}
+   
+#item_name{
+    font-size: 10px;
+}
+
+#nav a{
+    font-size: 14px;
+    transition: color 0.7s, background 0.7s;
+}
+#nav a:hover{
+    background-color:#EEEEEE;
+    color:#2F2F2F; 
+}
+.to_basket{
+    margin-left: 20px;
+}
+.price_good{
+    margin-right: 20px;
+}
+#good_title{
+    width: 65%;
+}
+#order_title{
+    width: 80%;
+}
+#good_basket{
+    width: 30%;
+    display: flex; 
+}
+#good_header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+#good_description{
+    width: 70%;
+    text-align: left;
+}
+#good_basket_image{
+    width: 30%;
+    margin-top: 5px;
+}
+#good_description{
+    padding-top: 10%;
+}
+.all_orders{
+    width: 100%;
+}
+.order_count{
+    width: 10%;
+    text-align: left;
+    padding: 5px;
+}
+.order_row{
+    display: flex;
+}
+.order_name{
+    width: 50%;
+    text-align: left;    
+    padding: 5px;
+}
+.order_sum_num{
+    width: 10%;
+    text-align: left;
+    padding: 5px;
+}
+.order_sum_price{
+    width: 10%;
+    text-align: left;
+    padding: 5px;
+}
+.order_plus{
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+    margin-left: 7%
+}
+.order_minus{
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+}
+.all_orders{
+    margin-top: 20px;
+}
+
+.butt, .butt-{
+    width: 30px;
+    border: 1px solid green; 
+    border-radius: 3px;
+}
+.butt:active, .butt-:active{
+    width: 30px;
+    border: 1px solid red; 
+    background-color: red;
+}
+.butt:hover, .butt-:hover{
+    width: 30px;
+    border: 1px solid blue;      
+}
+
+
+.plus_good:focus, .minus_good:focus{
+    text-decoration: none;
+}
+
+.plus_good:hover, .minus_good:hover{
+    text-decoration: none;
+}
+.buttons{
+    margin-top: 30px;
+}
